@@ -1,24 +1,31 @@
 {
-  "name": "typescript-bot",
+  "name": "ts-bot-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template of a typescript bot made by ddemile",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddemile/Typescript-Bot-Template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/uuid": "^9.0.1",
-    "typescript": "^5.0.4"
+  "bugs": {
+    "url": "https://github.com/ddemile/Typescript-Bot-Template/issues"
   },
+  "homepage": "https://github.com/ddemile/Typescript-Bot-Template#readme",
   "dependencies": {
     "chalk": "^5.2.0",
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3",
-    "mongoose": "^7.0.4",
-    "uuid": "^9.0.0"
+    "mongoose": "^7.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   },
   "type": "module"
 }
